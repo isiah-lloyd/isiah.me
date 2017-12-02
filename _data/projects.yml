@@ -1,0 +1,21 @@
+- name: ACM@UC
+  type: website
+  link: https://github.com/ACMatUC/acmatuc.github.io
+- name: Email2Slack
+  type: bot
+  link: https://github.com/isiah-lloyd/Email2SlackBot
+- name: isiah.me
+  type: website
+  link: https://github.com/isiah-lloyd/isiah.me
+- name: <i>Damn</i> Album Art Generator
+  type: website
+  link: https://isiah.me/damn/
+- name: First Robotics Competition
+  type: other
+  link: \#
+- name: RevolutionUC
+  type: website
+  link: https://github.com/RevolutionUC/revolutionuc-website
+- name: OutOfContextCommunity
+  type: bot
+  link: https://github.com/isiah-lloyd/OutOfContextCommunity

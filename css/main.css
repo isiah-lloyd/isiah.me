@@ -105,6 +105,7 @@ nav {
     position: relative;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
     -webkit-box-shadow: 0px 3px 8px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 3px 8px -2px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 8px -2px rgba(0,0,0,0.75);
@@ -158,6 +159,27 @@ div.activity > img {
 div.activity > img:hover{
     opacity: 0.3;
 }
+span.project {
+    width: 10px;
+    height: 10px;
+    padding: 2px 2px;
+    margin: 0 10px;
+    font-size: 20px  
+}
+span.project.website {
+    background-color: #B2EBF2;  
+}
+span.project.bot {
+    background-color: #FFCCBC; 
+}
+span.project.other {
+    background-color: #FFCCBC;
+}
+span.project > a {
+    color: #222;
+    text-decoration: none; /* no underline */
+}
+
 
 
 /* ==========================================================================
