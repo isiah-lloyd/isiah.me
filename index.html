@@ -2,18 +2,17 @@
 layout: default
 ---
 <div class="card animated slideInUp" style="margin-top: 50px;">
-    <h1>About me</h1>
-    <p>Hello, my name is <b>Isiah Lloyd</b>! I'm a Senior at the University of Cincinnati studying Computer Science. I'm mainly interested in web development!!</p>
-</div>
-<div class="card animated slideInUp" style="margin-top: 50px;">
     <h1>Blog</h1>
-    <div id="medium-widget"></div>
-    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@isiah_lloyd","postsPerLine":1,"limit":5,"picture":"small","fields":["description","claps","publishAt"],"ratio":"square"}})</script>
-</div>
+    <div id="retainable-rss-embed" data-rss="https://medium.com/feed/isiah-lloyd,"
+    data-maxcols="1" 
+    data-poststyle="inline" 
+    data-readmore="Read the rest" 
+    data-offset="-100">
 <div class="card animated slideInUp" style="margin-top: 50px;line-height:3em;">
     <h1>Projects</h1>
     {% for project in site.data.projects %}
         <span class="project {{ project.type }} animated fadeInUp"><a href="{{ project.link }}">{{ project.name }}</a></span>
     {% endfor %}
 </div>
+
+<script src="https://medium-widget.pixelpoint.io/widget.js"></script>
